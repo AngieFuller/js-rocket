@@ -1,9 +1,22 @@
+//This function does this
+var doCoolStuff = function () {
+	var currentClassName = document.getElementById('cool').ClassName;
+	//changing class name
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').className = 'cool red';
+	}	
+	else {
+		document.getElementById('cool').className = 'cool';
+	
+	}
+}
 
 var sayMyName = function(name){
 	alert('My Name is: '+name)
-}
+	}
 
-var car = {
+
+var car = {"word_wrap": "auto",
 				make:'VW',
 				type: 'Polo',
 				color: 'blue',
@@ -14,9 +27,9 @@ var car = {
 						'seat 3',
 						'seat 4'
 					],
-					turnOn: function () {
-							this.isTurnedOn = true;
-					},
+			turnOn: function () {
+					this.isTurnedOn = true;
+			},
 			
 			fly: function () {
 				alert('fly');
